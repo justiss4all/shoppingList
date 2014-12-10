@@ -1,9 +1,11 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var credentials = require('./lib/mongooseDB.js');
+var items = require('./routes/items.js')
 var app = express();
 
 app.use(express.static(__dirname + '/public'));
+app.use('/items', items);
 
 app.listen(3000, function() {
   console.log('Listening on port 3000');
