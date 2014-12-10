@@ -1,0 +1,28 @@
+{
+  "name": "shoppingList",
+  "version": "1.0.0",
+  "description": "Shopping list app built with Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justiss4all/shoppingList.git"
+  },
+  "keywords": [
+    "shopping"
+  ],
+  "author": "Brian Justiss <bmjustiss@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justiss4all/shoppingList/issues"
+  },
+  "homepage": "https://github.com/justiss4all/shoppingList",
+  "dependencies": {
+    "body-parser": "^1.10.0",
+    "express": "^4.10.4",
+    "mongoose": "^3.8.20"
+  }
+}
